@@ -26,7 +26,7 @@ ADMIN_ACCOUNTS = {
 }
 
 # MongoDB Setup
-MONGO_URL = "mongodb+srv://Nightmareshaha:Aimzzon00!!@cluster0.l5n6dxf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URL = "mongodb+srv://Nightmareshaha:Aimzzon00@cluster0.80nwqlr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "roblox_prank"
 
 # Global MongoDB client and database
@@ -1475,3 +1475,4 @@ if __name__ == '__main__':
     # Run the Flask app
     port = int(os.environ.get('PORT', 5000))
     app.run(debug=False, host='0.0.0.0', port=port)
+
